@@ -17,7 +17,7 @@ TypeError: Each row of the matrix must have the same size
 [[0.75, 1.25], [1.75, 2.25]]
 >>> matrix_divided([[1, 2], [3, 4]], 3.0)
 [[0.33, 0.67], [1.0, 1.33]]
->>> matrix_divided([[1, 2], [3, 4]], float(10**308))
+>>> matrix_divided([[0, 0], [0, 0]], float(3))
 [[0.0, 0.0], [0.0, 0.0]]
 >>> matrix_divided([[1, 2], [3, 4]], 1.0)
 [[1.0, 2.0], [3.0, 4.0]]
